@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+body{
+    background: rgb(235, 236, 238);
+    margin: 0px;
+}
+
+#content{
+    width: 1000px;
+    height: 650px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    margin-left: auto;
+    /*background: aliceblue;*/
+
+}
+#center{
+    margin-top: 145px;
+    width: 550px;
+    height: 350px;
+    float: left;
+    /*background: aqua;*/
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#name{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 华文细黑;
+    text-align: center;
+}
+
+#avatar{
+    box-shadow: rgba(0,0,0,0.2) 2px 2px 3px 0px;
+    width: 150px;
+    height: 220px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#card{
+    width: 440px;
+    height: 270px;
+    background: white;
+    float: left;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 5px 0px, rgba(0, 0, 0, 0.12) 3px 2px 10px 0px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+#cardleft{
+    float: left;
+}
+
+#cardright{
+    margin-top: 20px;
+    float: left;
+    margin-left: 20px;
+}
+
+.myself{
+    float: left;
+    font-size: 16px;
+    font-family: 华文细黑;
+}
+
+a{
+    text-decoration: none;
+}
+#more{
+    margin-top: 135px;
+    margin-right: 30px;
+    float: right;
+    margin-left: 45px;
+
+}
+
+#moreimg{
+    width: 30px;
+    height: 60px;
+}
+
+
+#morecard{
+    width: 400px;
+    height: 650px;
+    float: right;
+    background: white;
+    text-align: center;
+    box-shadow: rgba(0,0,0,0.2) 0px 5px 5px 0px,rgba(0, 0, 0, 0.12) 3px 2px 10px 0px;
+    display: none;
+}
+
+#contractme{
+    width: 400px;
+    height: 650px;
+    float: right;
+    background: white;
+    text-align: center;
+    box-shadow: rgba(0,0,0,0.2) 0px 5px 5px 0px,rgba(0, 0, 0, 0.12) 3px 2px 10px 0px;
+    display: none;
+}
+
+#contractme img{
+    width: 100px;
+    height: 100px;
+}
+
+#morecard > img{
+
+    width: 100px;
+    height: 100px;
+}
+
+#morecard > img:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 4px 3px 5px 2px, rgba(0, 0, 0, 0.12) 3px 2px 10px 0px;
+}
+
+
+#morecard a{
+    font-size: larger;
+    font-family: 微软雅黑;
+}
+
+#about{
+    width: 400px;
+    height: 650px;
+    float: right;
+    background: white;
+    text-align: center;
+    box-shadow: rgba(0,0,0,0.2) 0px 5px 5px 0px,rgba(0, 0, 0, 0.12) 3px 2px 10px 0px;
+    display: none;
+}
+
+#me{
+    width: 400px;
+    height: 650px;
+    float: right;
+    background: white;
+    text-align: center;
+    box-shadow: rgba(0,0,0,0.2) 0px 5px 5px 0px,rgba(0, 0, 0, 0.12) 3px 2px 10px 0px;
+    display: none;
+}
+
+.word{
+    font-family: 微软雅黑;
+    font-size: larger;
+
+}
+
+
+
